@@ -5,12 +5,12 @@ import java.net.Socket;
 
 public class Client {
     public static void main(String[] args) {
-        String serverAddress = "localhost"; // Indirizzo IP o nome del server
-        int serverPort = 12345; // Porta su cui il server ascolta
+        String srvAddr = "localhost"; // Indirizzo IP o nome del server
+        int srvPort = 9876; // Porta su cui il server ascolta
 
         try {
-            Socket socket = new Socket(serverAddress, serverPort);
-            System.out.println("Connesso al server " + serverAddress + ":" + serverPort);
+            Socket socket = new Socket(srvAddr, srvPort);
+            System.out.println("Connesso al server " + srvAddr + ":" + srvPort);
 
             InputStream input = socket.getInputStream();
             OutputStream output = socket.getOutputStream();

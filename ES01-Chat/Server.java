@@ -6,18 +6,18 @@ import java.net.Socket;
 
 public class Server {
     public static void main(String[] args) {
-        int port = 12345; // Porta su cui il server ascolta le connessioni
+        int srvPort = 9876; // Porta su cui il server ascolta le connessioni
 
         try {
-            ServerSocket serverSocket = new ServerSocket(port);
-            System.out.println("Server in ascolto sulla porta " + port);
+            ServerSocket srvSocket = new ServerSocket(srvPort);
+            System.out.println("Server in ascolto sulla porta " + srvPort);
 
             while (true) {
-                Socket clientSocket = serverSocket.accept();
-                System.out.println("Nuova connessione da: " + clientSocket.getInetAddress());
+                Socket clntSocket = srvSocket.accept();
+                System.out.println("Nuova connessione da: " + clntSocket.getInetAddress());
 
                 // Crea un nuovo thread per gestire la connessione
-                Thread clientHandler = new ClientHandler(clientSocket);
+                Thread clientHandler = new ClientHandler(clntSocket);
                 clientHandler.start();
             }
         } catch (IOException e) {
@@ -27,26 +27,26 @@ public class Server {
 }
 
 class ClientHandler extends Thread {
-    private Socket clientSocket;
+    private Socket clntSocket;
 
-    public ClientHandler(Socket clientSocket) {
-        this.clientSocket = clientSocket;
+    public ClientHandler(Socket clntSocket) {
+        this.clntSocket = clntSocket;
     }
 
     public void run() {
         try {
-            InputStream input = clientSocket.getInputStream();
-            OutputStream output = clientSocket.getOutputStream();
+            InputStream clntInStream = clntSocket.getInputStream();
+            OutputStream clntOutStream = clntSocket.getOutputStream();
 
             // Gestisci la comunicazione con il client
             // Esempio: leggi dati dal client e inviali indietro
             byte[] buffer = new byte[1024];
             int bytesRead;
-            while ((bytesRead = input.read(buffer)) != -1) {
-                output.write(buffer, 0, bytesRead);
+            while ((bytesRead = clntInStream.read(buffer)) != -1) {
+                clntOutStream.write(buffer, 0, bytesRead);
             }
 
-            clientSocket.close();
+            clntSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

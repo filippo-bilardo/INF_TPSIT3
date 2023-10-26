@@ -4,7 +4,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-public class UdpEchoClient 
+public class UdpChatClient 
 {
     public static void main(String[] args) 
     {
@@ -37,6 +37,9 @@ public class UdpEchoClient
 				String rcvMsg = new String(rcvPacket.getData(), 0, rcvPacket.getLength());
 				System.out.print("[" + rcvPacket.getAddress().getHostName() + ":" + rcvPacket.getPort() + "] ");
 				System.out.println(rcvMsg);
+
+				//Fine della comunicazione
+				if(rcvMsg.equals("bye")) break;
             }
             scanner.close();
             clntSocket.close();
