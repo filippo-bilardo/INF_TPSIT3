@@ -3,7 +3,7 @@
  * 
  * TPSIT_3/UDPMulticast/Receiver application
  * 
- * @Filippo Bilardo
+ * @author Filippo Bilardo
  * @version 1.00 11/11/2023
  */
 import java.net.DatagramPacket;

@@ -1,21 +1,33 @@
+/**
+ * Client UDP che invia una stringa al server e attende la risposta.
+ * 
+ * javac Client; java Client;
+ * 
+ * @autor Filippo Bilardo 
+ * @version 1.00 11/11/2023
+ */ 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-public class UdpChatClient 
+public class Client 
 {
+    private static final String UNICAST_IP = "127.0.0.1";
+    private static final int UNICAST_PORT = 9876;
+
     public static void main(String[] args) 
     {
-        DatagramSocket clntSocket = null;
-        Scanner scanner = new Scanner(System.in);
-
         try 
         {
-            clntSocket = new DatagramSocket();
-            InetAddress srvAddr = InetAddress.getByName("localhost");
-            int srvPort = 9876;
+            //Creo lo scanner per leggere da tastiera
+            Scanner scanner = new Scanner(System.in);
+
+            //Creo il DatagramSocket per lo scambio dei dati con il server
+            DatagramSocket clntSocket = new DatagramSocket();
+            InetAddress srvAddr = InetAddress.getByName(UNICAST_IP);
+            int srvPort = UNICAST_PORT;
 
             while (true) 
             {
@@ -45,10 +57,6 @@ public class UdpChatClient
             clntSocket.close();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (clntSocket != null && !clntSocket.isClosed()) {
-                clntSocket.close();
-            }
         }
     }
 }

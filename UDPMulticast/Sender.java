@@ -3,15 +3,15 @@
  * 
  * TPSIT_3/UDPMulticast/Sender application
  * 
- * @Filippo Bilardo
+ * @author Filippo Bilardo
  * @version 1.00 11/11/2023
  */
 import java.net.DatagramPacket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 
-public class Sender {
-
+public class Sender 
+{
     private static final String MULTICAST_IP = "230.0.0.1";
     private static final int MULTICAST_PORT = 19876;
 
