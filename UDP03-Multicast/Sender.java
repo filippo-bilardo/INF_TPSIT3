@@ -24,7 +24,7 @@ public class Sender
             MulticastSocket socket = new MulticastSocket();
             InetAddress group = InetAddress.getByName(MULTICAST_IP);
             socket.setInterface(InetAddress.getByName(SENDER_IP));
-            socket.joinGroup(group);
+            socket.joinGroup(group); 
 
             //Invio il DatagramPacket al gruppo di multicast
             String message = "Messaggio da Sender";
