@@ -12,22 +12,21 @@ import java.net.DatagramSocket;
 
 public class Receiver {
 
-    private static final int UNICAST_PORT = 8698;
+    private static final int RECEIVE_PORT = 8698;
 
 	public static void main(String[] args) throws IOException 
 	{
 		//Opens a datagram socket on the specified port
-		DatagramSocket socket = new DatagramSocket(UNICAST_PORT);
+		DatagramSocket socket = new DatagramSocket(RECEIVE_PORT);
 		
 		//Constructs a datagram packet for receiving the packets of specified length
 		byte[] buf = new byte[1024];
 		DatagramPacket packet = new DatagramPacket(buf, 1024);
-
 		//Receives a datagram packet from this socket
-		System.out.println("Receiver: starting on port " + UNICAST_PORT);
+		System.out.println("Receiver: starting on port " + RECEIVE_PORT);
 		socket.receive(packet);
-		String str = new String(packet.getData(), 0, packet.getLength());
-		System.out.println("Receiver, ho ricevuto il seguente messaggio "+ str);
+		String msg = new String(packet.getData(), 0, packet.getLength());
+		System.out.println("Receiver, ho ricevuto il seguente messaggio "+ msg);
 		
 		//Closing the Datagram socket
 		socket.close();

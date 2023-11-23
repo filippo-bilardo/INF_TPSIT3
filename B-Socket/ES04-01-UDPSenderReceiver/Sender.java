@@ -13,20 +13,20 @@ import java.net.InetAddress;
 
 public class Sender {
 
-	private static final String UNICAST_IP = "127.0.0.1";
-    private static final int UNICAST_PORT = 8698;
+	private static final String DEST_IP = "127.0.0.1";
+    private static final int DEST_PORT = 8698;
 
 	public static void main(String[] args) throws IOException 
 	{	
-		// Datagram socket that binds to any available port in localhost
+		//Create Datagram socket that binds to any available port in localhost
 		DatagramSocket socket = new DatagramSocket();
-		InetAddress ipAddr = InetAddress.getByName(UNICAST_IP);
 
 		//Create Datagram packet and send
 		String message = "Hello Message using UDP";
-		System.out.println("Sender: starting on port " + UNICAST_PORT);
-		DatagramPacket packet = new DatagramPacket(message.getBytes(), message.length(), ipAddr, UNICAST_PORT);
-		socket.send(packet);
+		System.out.println("Sender: starting on port " + DEST_PORT);
+		InetAddress destIpAddr = InetAddress.getByName(DEST_IP);
+		DatagramPacket sendPacket = new DatagramPacket(message.getBytes(), message.length(), destIpAddr, DEST_PORT);
+		socket.send(sendPacket);
 		System.out.println("Sender: ho inviato il messaggio " + message);
 		
 		//Close the socket
