@@ -2,8 +2,6 @@
  * @(#)Sender.java
  * 
  * TPSIT_3/UDPMulticast/Sender application
- * version 1.1 non serve il MulticastSocket per inviare un messaggio
- * è sufficiente un DatagramSocket
  * 
  * @author Filippo Bilardo
  * @version 1.00 11/11/2023
