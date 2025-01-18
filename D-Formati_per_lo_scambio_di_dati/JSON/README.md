@@ -4,15 +4,15 @@
 
 ## Teoria
 ## **Capitolo 1: Introduzione a JSON**
-- 1.1 Che cos'è JSON?
-- 1.2 Differenze tra JSON e XML
-- 1.3 Vantaggi e limiti di JSON
-- 1.4 Struttura di base di un documento JSON
+- [1.1 Che cos'è JSON?](<01.1 Che cos'è JSON.md>)
+- [1.2 Differenze tra JSON e XML](<01.2 Differenze tra JSON e XML.md>)
+- [1.3 Vantaggi e limiti di JSON](<01.3 Vantaggi e limiti di JSON.md>)
+- [1.4 Struttura base di un documento JSON](<01.4 Struttura base di un documento JSON.md>)
 
 ## **Capitolo 2: Sintassi e regole di JSON**
-- 2.1 Tipi di dati in JSON
-- 2.2 Oggetti e array
-- 2.3 Escape dei caratteri speciali
+- [2.1 Tipi di dati in JSON](<02.1 Tipi di dati in JSON.md>)
+- [2.2 Oggetti e array](<02.2 Oggetti e array.md>)
+- 2.3 Escape dei caratteri speciali                     "erasmoinrete"
 - 2.4 Regole per la validità di un documento JSON
 
 ## **Capitolo 3: Strumenti per lavorare con JSON**

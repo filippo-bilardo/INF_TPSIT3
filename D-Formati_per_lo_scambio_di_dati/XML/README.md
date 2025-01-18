@@ -1,7 +1,9 @@
 # Guida completa a XML 
 
+---
 ## Esercitazioni
 
+---
 ## Teoria
 ### [1. Introduzione a XML] 
   - [1.1 Cos'è XML](<01.1 Cos'è XML.md>)
@@ -17,26 +19,27 @@
 
 ### 3. Validazione di XML
   - [3.1 Introduzione alla validazione](<03.1 Introduzione alla validazione.md>)
-    [3.2 Document Type Definition (DTD)](<3.2 Document Type Definition (DTD).md>)
-    [3.3 XML Schema (XSD)](<3.3 XML Schema (XSD).md>)
-    3.4 Best practice per la validazione
+  - [3.2 Document Type Definition (DTD)](<03.2 Document Type Definition (DTD).md>)
+  - [3.3 XML Schema (XSD)](<03.3 XML Schema (XSD).md>)
+  - 3.4 Best practice per la validazione
 
 ### 4. Parsing di XML
   - [4.1 Parsing DOM](<04.1 Parsing DOM.md>)
   - [4.2 Parsing SAX](<04.2 Parsing SAX.md>)
-    4.3 Comparazione tra DOM e SAX
-    4.4 Introduzione al modello StAX
+  - 4.3 Comparazione tra DOM e SAX
+  - 4.4 Introduzione al modello StAX
 
 ### 5. XML in Java
   - [5.1 Lettura e scrittura di file XML con DOM](<05.1 Lettura e scrittura di file XML con DOM.md>)
-    [5.2 Parsing XML con SAX](<5.2 Parsing XML con SAX.md>)
-    5.3 Uso di StAX per il parsing efficiente
-    5.4 JAXB: Binding tra XML e oggetti Java
-    [5.5 Esempi pratici di progetti XML con Java](<5.5 Esempi pratici di progetti XML con Java.md>)
+  - [5.2 Parsing XML con SAX](<05.2 Parsing XML con SAX.md>)
+  - [5.3 Parsing XML con il DOM Parser](<05.3 Parsing XML con il DOM Parser.md>)
+  - 5.4 Uso di StAX per il parsing efficiente
+  - 5.5 JAXB: Binding tra XML e oggetti Java
+  - [5.6 Esempi pratici di progetti XML con Java](<05.6 Esempi pratici di progetti XML con Java.md>)
 
 ### 6. XML in JavaScript
   - [6.1 Introduzione all'utilizzo di XML in JavaScript](<06.1 Introduzione all'utilizzo di XML in JavaScript.md>)
-  - 6.2 Parsing XML con il DOM Parser
+  - [6.2 Parsing XML con il DOM Parser](<06.2 Parsing XML con il DOM Parser.md>)
   - 6.3 Manipolazione XML tramite JavaScript
   - 6.4 Uso di XMLHttpRequest e Fetch API
   - 6.5 Generazione di XML con JavaScript
@@ -71,7 +74,7 @@
   - 9.1 Strutturare documenti XML per la scalabilità
   - 9.2 Ottimizzazione della validazione e parsing
   - 9.3 Strategie di migrazione da XML a JSON
-v9.4 Strumenti e IDE per lavorare con XML
+  - 9.4 Strumenti e IDE per lavorare con XML
 
 ### 10 Progetti finali e casi studio
   - 10.1 Sviluppo di un CMS basato su XML
