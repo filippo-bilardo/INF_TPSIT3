@@ -12,13 +12,13 @@
 ## **Capitolo 2: Sintassi e regole di JSON**
 - [2.1 Tipi di dati in JSON](<02.1 Tipi di dati in JSON.md>)
 - [2.2 Oggetti e array](<02.2 Oggetti e array.md>)
-- 2.3 Escape dei caratteri speciali                     "erasmoinrete"
-- 2.4 Regole per la validità di un documento JSON
+- [2.3 Escape dei caratteri speciali](<02.3 Escape dei caratteri speciali.md>)                     "erasmoinrete"
+- [2.4 Regole per la validità di un documento JSON](<02.4 Regole per la validità di un documento JSON.md>)
 
 ## **Capitolo 3: Strumenti per lavorare con JSON**
-- 3.1 Editor e validatori JSON
-- 3.2 Librerie per la manipolazione di JSON
-- 3.3 Formattazione e compressione
+- [3.1 Editor e validatori JSON](<03.1 Editor e validatori JSON.md>)
+- [3.2 Librerie per la manipolazione di JSON](<03.2 Librerie per la manipolazione di JSON.md>)
+- [3.3 Formattazione e compressione](<03.3 Formattazione e compressione.md>)
 
 ## **Capitolo 4: JSON in Java**
 - 4.1 Parsing e generazione di JSON con Jackson
@@ -69,4 +69,4 @@
 
 ---
 
-[INDICE](README.md)
+[INDICE](../README.md)

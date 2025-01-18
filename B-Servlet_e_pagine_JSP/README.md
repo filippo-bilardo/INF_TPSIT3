@@ -11,16 +11,17 @@
 2. **Java per il web**
    - [2.1 Il ruolo di Java nello sviluppo web](<02.1 Il ruolo di Java nello sviluppo web.md>)
    - [2.2 Introduzione alle Servlet e JSP](<02.2 Introduzione alle Servlet e JSP.md>)
-   - 2.3 Diffusione e utilizzo di Servlet e JSP nell'ultimo decennio
+   - [2.3 Diffusione e utilizzo di Servlet e JSP nell'ultimo decennio](<02.3 Diffusione e utilizzo di Servlet e JSP nell'ultimo decennio.md>)
 
 ## Fondamenti di Servlet
 3. **Cos'è una Servlet?**
-   - Struttura e ciclo di vita di una Servlet
-   - Configurazione e deployment
+   - [3.1 Struttura e ciclo di vita di una Servlet](<03.1 Struttura e ciclo di vita di una Servlet.md>)
+   - [3.2 Configurazione e deployment](<03.2 Configurazione e deployment.md>)
 4. **Creazione di una semplice Servlet**
-   - Ambiente di sviluppo in Linux
-   - Configurazione del server Apache Tomcat
-   - Esempio pratico di una Servlet
+   - [4.1 Ambiente di sviluppo in Linux](<04.1 Ambiente di sviluppo in Linux.md>)
+   - [4.2 Ambiente di sviluppo su server remoto](<04.2 Ambiente di sviluppo su server remoto.md>)
+   - [4.3 Configurazione del server Apache Tomcat](<04.3 Configurazione del server Apache Tomcat.md>)
+   - [4.4 Esempio pratico di una Servlet](<04.4 Esempio pratico di una Servlet.md>)
 5. **Gestione delle richieste HTTP**
    - Metodi GET e POST
    - Gestione dei parametri delle richieste
@@ -31,8 +32,8 @@
 
 ## JSP: JavaServer Pages
 7. **Introduzione a JSP**
-   - Differenze tra Servlet e JSP
-   - Architettura di JSP
+   - 7.1 Differenze tra Servlet e JSP
+   - 7.2 Architettura di JSP
 8. **Costruire pagine JSP**
    - Sintassi di base
    - Utilizzo delle direttive JSP

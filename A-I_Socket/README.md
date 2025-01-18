@@ -7,7 +7,7 @@
 ---
 ### Teoria
 1. **Introduzione ai Socket**
-   - [1.1 Cos'è un Socket?](<01.1 Cos'è un Socket.md>)
+   - [1.1 Cos'è una Socket?](<01.1 Cos'è una Socket.md>)
    - 1.2 Tipologie di Socket: TCP e UDP
    - 1.3 Architettura Client-Server
    - 1.4 Modello OSI e ruolo dei Socket
@@ -34,7 +34,8 @@
    - 4.5 Esempi Pratici: Server HTTP e Monitoraggio di Rete
 
 5. **Socket Multicast e Broadcast**
-   - 5.1 Principi di Multicast e Broadcast
+   - 5.1 Principi di Multicast
+   - 5.2 La trasmissione Broadcast
    - 5.2 Implementazione in Java
    - 5.3 Implementazione in C++
    - 5.4 Applicazioni Reali: Streaming Audio/Video
