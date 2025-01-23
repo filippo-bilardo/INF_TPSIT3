@@ -15,25 +15,26 @@
 2. Architettura dei Web Services
    - [2.1 Architettura Client-Server](<02.1 Architettura Client-Server.md>)
    - [2.2 Architettura monolitica](<02.2 Architettura monolitica.md>)
-   - [2.3 Microservizi](<02.3 Microservizi.md>)      dev.filippo.bilardo
-   - 2.3 Scalabilità e Resilienza
-   - 2.4 Architettura orientata ai servizi (SOA)
-   - 2.5 Componenti principali di un Web Service
-   - 2.6 Sicurezza nei Web Services (Autenticazione e Autorizzazione)
+   - [2.3 Microservizi](<02.3 Microservizi.md>)      
+   - [2.3 Scalabilità e Resilienza](<02.3 Scalabilità e Resilienza.md>)
+   - [2.4 Architettura orientata ai servizi (SOA)](<02.4 Architettura orientata ai servizi (SOA).md>)
+   - [2.5 Componenti principali di un Web Service](<02.5 Componenti principali di un Web Service.md>)
+   - [2.6 Sicurezza nei Web Services (Autenticazione e Autorizzazione)](<02.6 Sicurezza nei Web Services.md>)
 
 3. **Tecnologie di Base**
-   - HTTP e HTTPS
-   - XML e JSON come formati di scambio dati
-   - Panoramica su WSDL e UDDI
+   - 3.1 HTTP e HTTPS
+   - 3.2 XML e JSON come formati di scambio dati
+   - [3.3 WSDL e UDDI](<03.3 WSDL e UDDI.md>)
 
 ## Parte II: RESTful Web Services
 4. **Introduzione ai RESTful Web Services**
-   - Principi REST
-   - Metodi HTTP: GET, POST, PUT, DELETE
-   - Status code e gestione delle risposte
+   - [4.1 Principi REST](<04.1 Principi REST.md>)
+   - [4.2 Metodi HTTP: GET, POST, PUT, DELETE](<04.2 Metodi HTTP.md>)
+   - [4.3 Status code e gestione delle risposte](<04.3 Status code e gestione delle risposte.md>)
+   - [4.4 Gestione delle risposte](<04.4 Gestione delle risposte.md>)    
 
 5. **Creazione di RESTful Web Services con Java**
-   - Utilizzo di Spring Boot per creare API REST
+   - Utilizzo di Spring Boot per creare API REST       dev.filippo.bilardo
    - Gestione delle richieste e delle risposte
    - Implementazione di CRUD con JPA
 
@@ -43,9 +44,19 @@
    - Connessione con un database (es. MongoDB)
 
 7. **RESTful Web Services con PHP**
-   - Costruzione di API REST con PHP e Slim Framework
-   - Validazione delle richieste
-   - Autenticazione e sicurezza
+   - [7.1 Costruzione di API REST con PHP](<07.1 Costruzione di API REST con PHP.md>)
+   - [7.2 Validazione delle richieste](<07.2 Validazione delle richieste.md>)
+   - 7.3 Autenticazione e sicurezza
+   - 7.4 Appicazione completa di esempio
+   - 7.5 Progettazione e Best Practices di API RESTful
+
+## Parte III: GraphQL Web Services
+5. Web Services GraphQL
+   5.1 Introduzione a GraphQL
+   5.2 Differenze tra REST, SOAP e GraphQL
+   5.3 Implementazione di Web Services GraphQL in JavaScript
+   5.3 Implementazione di Web Services GraphQL in Java 
+   5.3 Implementazione di Web Services GraphQL in PHP
 
 ## Parte III: SOAP Web Services
 8. **Introduzione ai SOAP Web Services**
@@ -90,73 +101,38 @@
     - Uso di WebSocket per notifiche
     - Integrazione con un database
 
-## Parte VI: Test e Ottimizzazione
+16. **Altri Progetti Pratici**
+    - Sviluppo di un Web Service SOAP per la gestione di un e-commerce
+    - Sviluppo di un'API REST per una piattaforma di blog
+    - Implementazione di un servizio GraphQL per la gestione di un sistema di prenotazioni
+
+## Parte VI: Test, Ottimizzazione e Deployment
 16. **Test dei Web Services**
     - Strumenti per il test (Postman, SoapUI)
     - Test di carico e stress
     - Debugging e gestione degli errori
+    - Debugging di Web Services in Java
+    - Debugging di Web Services in JavaScript e PHP
 
-17. **Ottimizzazione delle Performance**
+17. **Ottimizzazione, Deploy e Scalabilità dei Web Services**
+    - Deploy di Web Services su Cloud (AWS, Azure)
     - Caching e compressione
     - Riduzione della latenza
     - Scalabilità e bilanciamento del carico
+    - Monitoraggio e Logging
 
 ## Parte VII: Futuro dei Web Services
 18. **Tendenze Future nei Web Services**
     - Microservizi e architetture serverless
     - Event-driven architectures
     - Impatto di AI e ML nei Web Services
+    - API Gateway e Architetture Event-Driven
+    - Serverless e i Web Services del Futuro
 
 ## Appendici
 - **Appendice A: Risorse Utili**
 - **Appendice B: Strumenti e Librerie Consigliati**
 - **Appendice C: Glossario dei Termini**
-
-
-3. Web Services SOAP
-   3.1 Introduzione a SOAP
-   3.2 WSDL e XML Schema
-   3.3 Implementazione di Web Services SOAP in Java
-   3.4 Implementazione di Web Services SOAP in PHP
-
-4. Web Services REST
-   4.1 Introduzione a REST
-   4.2 JSON e XML nei Web Services REST
-   4.3 Progettazione e Best Practices di API RESTful
-   4.4 Implementazione di Web Services REST in Java
-   4.5 Implementazione di Web Services REST in JavaScript
-   4.6 Implementazione di Web Services REST in PHP
-
-5. Web Services GraphQL
-   5.1 Introduzione a GraphQL
-   5.2 Differenze tra REST e GraphQL
-   5.3 Implementazione di Web Services GraphQL in JavaScript
-
-6. Sicurezza nei Web Services
-   6.1 Autenticazione e OAuth 2.0
-   6.2 Gestione dei Token JWT
-   6.3 Crittografia e HTTPS
-
-7. Testing e Debugging di Web Services
-   7.1 Strumenti di Testing (Postman, SoapUI)
-   7.2 Debugging di Web Services in Java
-   7.3 Debugging di Web Services in JavaScript e PHP
-
-8. Deploy e Scalabilità dei Web Services
-   8.1 Deploy di Web Services su Cloud (AWS, Azure)
-   8.2 Bilanciamento del Carico e Cache
-   8.3 Monitoraggio e Logging
-
-9. Progetti Pratici
-   9.1 Sviluppo di un Web Service SOAP per la gestione di un e-commerce
-   9.2 Sviluppo di un'API REST per una piattaforma di blog
-   9.3 Implementazione di un servizio GraphQL per la gestione di un sistema di prenotazioni
-
-10. Conclusioni e Prospettive Future
-   10.1 Evoluzione dei Web Services
-   10.2 API Gateway e Architetture Event-Driven
-   10.3 Serverless e i Web Services del Futuro
-
 
 ---
 [INDICE](<../README.md>)
