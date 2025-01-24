@@ -33,8 +33,8 @@
 - 5.4 Esempi pratici: utilizzo in applicazioni web
 
 ## **Capitolo 6: JSON in PHP**
-- 6.1 Funzioni JSON di base in PHP
-- 6.2 Parsing e generazione di JSON
+- [6.1 Funzioni JSON di base in PHP](<06.1 Funzioni JSON di base in PHP.md>)
+- [6.2 Parsing e generazione di JSON](<06.2 Parsing e generazione di JSON.md>)
 - 6.3 Utilizzo di JSON in applicazioni PHP
 - 6.4 Esempi pratici: API RESTful e JSON
 
