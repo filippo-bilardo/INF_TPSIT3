@@ -7,12 +7,13 @@
 ## Parte I: Introduzione ai Web Services
 1. **Introduzione ai Web Services**
    - [1.1 Cos'è un Web Service?](<01.1 Cos'è un Web Service.md>)
-   - [1.2 Storia dei Web Services](<01.2 Storia dei Web Services.md>)
+   - [1.2 Storia e sviluppo dei Web Services](<01.2 Storia e sviluppo dei Web Services.md>)
    - [1.3 Il futuro per i webservice](<1.3 Il futuro per i webservice.md>)
    - [1.4 Differenze tra servizi RESTful, SOAP e GraphQL](<01.4 Differenze tra servizi RESTful, SOAP e GraphQL.md>)
    - [1.5 Standard e Protocolli Correlati](<01.5 Standard e Protocolli Correlati.md>)
+   - [1.6 Utilizzo dei Web Services nel mondo reale](<01.6 Utilizzo dei Web Services nel mondo reale.md>)
 
-2. Architettura dei Web Services
+2. **Architettura dei Web Services**
    - [2.1 Architettura Client-Server](<02.1 Architettura Client-Server.md>)
    - [2.2 Architettura monolitica](<02.2 Architettura monolitica.md>)
    - [2.3 Microservizi](<02.3 Microservizi.md>)      
