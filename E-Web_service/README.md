@@ -7,7 +7,7 @@
 ## Parte I: Introduzione ai Web Services
 1. **Introduzione ai Web Services**
    - [1.1 Cos'è un Web Service?](<01.1 Cos'è un Web Service.md>)
-   - [1.2 Storia e sviluppo dei Web Services](<01.2 Storia e sviluppo dei Web Services.md>)
+   - [1.2 Storia e sviluppo dei Web Services](<01.2 Stor    ia e sviluppo dei Web Services.md>)
    - [1.3 Il futuro per i webservice](<1.3 Il futuro per i webservice.md>)
    - [1.4 Differenze tra servizi RESTful, SOAP e GraphQL](<01.4 Differenze tra servizi RESTful, SOAP e GraphQL.md>)
    - [1.5 Standard e Protocolli Correlati](<01.5 Standard e Protocolli Correlati.md>)
@@ -21,12 +21,15 @@
    - [2.4 Architettura orientata ai servizi (SOA)](<02.4 Architettura orientata ai servizi (SOA).md>)
    - [2.5 Componenti principali di un Web Service](<02.5 Componenti principali di un Web Service.md>)
    - [2.6 Sicurezza nei Web Services (Autenticazione e Autorizzazione)](<02.6 Sicurezza nei Web Services.md>)
+   - [2.7 Tecniche di autenticazione](<02.7 Tecniche di autenticazione.md>)
+   - [2.8 Modelli di comunicazione: Sincrono e Asincrono](<02.8 Modelli di comunicazione: Sincrono e Asincrono.md>)
+   - [2.9 Architettura SOA (Service-Oriented Architecture)](<02.9 Architettura SOA.md>)
 
 3. **Tecnologie di Base**
-   - 3.1 HTTP e HTTPS
-   - 3.2 XML e JSON come formati di scambio dati
+   - [3.1 HTTP e HTTPS](<03.1 HTTP e HTTPS.md>)
+   - [3.2 XML e JSON come formati di scambio dati](<03.2 XML e JSON come formati di scambio dati.md>)
    - [3.3 WSDL e UDDI](<03.3 WSDL e UDDI.md>)
-
+  
 ## Parte II: RESTful Web Services
 4. **Introduzione ai RESTful Web Services**
    - [4.1 Principi REST](<04.1 Principi REST.md>)
@@ -47,7 +50,8 @@
 7. **RESTful Web Services con PHP**
    - [7.1 Costruzione di API REST con PHP](<07.1 Costruzione di API REST con PHP.md>)
    - [7.2 Validazione delle richieste](<07.2 Validazione delle richieste.md>)
-   - 7.3 Autenticazione e sicurezza
+   - [7.3 Utilizzo di cURL per fare richieste al webservice](<07.3 Utilizzo di cURL per fare richieste al webservice.md>)
+   - 7.4 Autenticazione e sicurezza - Esempio di utilizzo di uno dei metodi visti nel cap. 2
    - 7.4 Appicazione completa di esempio
    - 7.5 Progettazione e Best Practices di API RESTful
 

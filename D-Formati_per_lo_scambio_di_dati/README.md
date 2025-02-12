@@ -4,6 +4,7 @@
 ## Teoria
 - [XML](XML/README.md)
 - [JSON](JSON/README.md)
+- [riassunto](riassunto1.md)
 
 ---
 [INDICE](../README.md)
