@@ -56,12 +56,11 @@
    - 7.5 Progettazione e Best Practices di API RESTful
 
 ## Parte III: GraphQL Web Services
-5. Web Services GraphQL
-   5.1 Introduzione a GraphQL
-   5.2 Differenze tra REST, SOAP e GraphQL
-   5.3 Implementazione di Web Services GraphQL in JavaScript
-   5.3 Implementazione di Web Services GraphQL in Java 
-   5.3 Implementazione di Web Services GraphQL in PHP
+   - 5.1 Introduzione a GraphQL
+   - 5.2 Differenze tra REST, SOAP e GraphQL
+   - 5.3 Implementazione di Web Services GraphQL in JavaScript
+   - 5.3 Implementazione di Web Services GraphQL in Java 
+   - 5.3 Implementazione di Web Services GraphQL in PHP
 
 ## Parte III: SOAP Web Services
 8. **Introduzione ai SOAP Web Services**
