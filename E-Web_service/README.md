@@ -22,7 +22,7 @@
    - [2.5 Componenti principali di un Web Service](<02.5 Componenti principali di un Web Service.md>)
    - [2.6 Sicurezza nei Web Services (Autenticazione e Autorizzazione)](<02.6 Sicurezza nei Web Services.md>)
    - [2.7 Tecniche di autenticazione](<02.7 Tecniche di autenticazione.md>)
-   - [2.8 Modelli di comunicazione: Sincrono e Asincrono](<02.8 Modelli di comunicazione: Sincrono e Asincrono.md>)
+   - [2.8 Modelli di comunicazione: Sincrono e Asincrono](<02.8 Modelli di comunicazione_ Sincrono e Asincrono.md>)
    - [2.9 Architettura SOA (Service-Oriented Architecture)](<02.9 Architettura SOA.md>)
 
 3. **Tecnologie di Base**
