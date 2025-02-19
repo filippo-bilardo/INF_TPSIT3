@@ -51,6 +51,7 @@
    - [7.1 Costruzione di API REST con PHP](<07.1 Costruzione di API REST con PHP.md>)
    - [7.2 Validazione delle richieste](<07.2 Validazione delle richieste.md>)
    - [7.3 Utilizzo di cURL per fare richieste al webservice](<07.3 Utilizzo di cURL per fare richieste al webservice.md>)
+   - [7.4 Esercitazione gestione libri](<7.4 Esercitazione gestione libri.md>)
    - 7.4 Autenticazione e sicurezza - Esempio di utilizzo di uno dei metodi visti nel cap. 2
    - 7.4 Appicazione completa di esempio
    - 7.5 Progettazione e Best Practices di API RESTful
